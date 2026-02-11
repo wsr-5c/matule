@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+android:layout_margin="10dp"
+    >
+    <!--Заголовок-->
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:gravity="top"
+        android:text="Создать проект"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    <!--Тип-->
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:paddingTop="10dp"
+        android:text="Тип"
+        android:textColor="@color/description" />
+    <!--Поле ввода типа-->
+    <EditText
+        android:id="@+id/editTextType"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_corners"
+        android:ems="10"
+        android:hint="Выберите тип"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <!--Название-->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:paddingTop="10dp"
+        android:text="Название проекта"
+        android:textColor="@color/description" />
+    <!--Поле ввода названия-->
+    <EditText
+        android:id="@+id/nameP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_corners"
+        android:ems="10"
+        android:hint="Введите имя"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <!--Дата начала-->
+    <TextView
+        android:id="@+id/stdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:paddingTop="10dp"
+        android:text="Дата начала"
+        android:textColor="@color/description" />
+    <!--Поле ввода даты начала-->
+    <EditText
+        android:id="@+id/sadateedit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_corners"
+        android:ems="10"
+        android:hint="--.--.----"
+        android:inputType="date"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <!--Дата окончания-->
+    <TextView
+        android:id="@+id/enddate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:paddingTop="10dp"
+        android:text="Дата окончания"
+        android:textColor="@color/description" />
+    <!--Поле ввода даты окончания-->
+    <EditText
+        android:id="@+id/enddateedit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_corners"
+        android:ems="10"
+        android:hint="--.--.----"
+        android:inputType="date"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <!--Кнопка сохранения проекта-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/shape_corners"
+        android:backgroundTint="@color/accent"
+        android:text="Подтвердить"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
