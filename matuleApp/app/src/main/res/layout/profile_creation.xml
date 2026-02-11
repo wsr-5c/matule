@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+android:layout_margin="10dp"
+    >
+    <!--Приветствие-->
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:gravity="top"
+        android:text="Создание Профиля"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <!--Описание-->
+    <TextView
+        android:id="@+id/desc"
+        android:layout_marginEnd="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/caption"
+        android:paddingBottom="30dp"
+        android:text="Без профиля вы не сможете создавать проекты.\nВ профиле будут храниться результаты проектов и ваши описания." />
+
+    <!--Поле ввода имени-->
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:paddingBottom="20dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_corners"
+        android:ems="10"
+        android:hint="Имя"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/icons"
+        />
+    <!--Поле ввода отчества-->
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_corners"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="Отчество"
+        android:paddingBottom="20dp"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/icons" />
+
+    <!--Поле ввода фамилии-->
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_corners"
+        android:ems="10"
+        android:hint="Фамилия"
+        android:inputType="text"
+        android:paddingBottom="20dp"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/icons" />
+
+    <!--Поле ввода даты рождения-->
+    <EditText
+        android:id="@+id/birthday"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_corners"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="Дата рождения"
+        android:inputType="date"
+        android:paddingBottom="20dp"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/icons" />
+    <!--Поле ввода пола-->
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_corners"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="20dp"
+        android:hint="Пол"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/icons" />
+    <!--Поле ввода почты-->
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_corners"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="10dp"
+        android:hint="Почта"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/icons" />
+
+    <!--Кнопка для завешения регистрации-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/shape_corners"
+        android:backgroundTint="@color/accent"
+        android:text="Далее"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

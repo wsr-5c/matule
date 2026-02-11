@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //акцентный цвет
+    <color name="accent">#FF2074F2</color>
+    //акцентный цвет неактивных элементов
+    <color name="accentInactive">#FFC5D2FF</color>
+    //чёрный цвет
+    <color name="black">#FF2D2C2C</color>
+    //цвет описаний
+    <color name="description">#FF8787A1</color>
+    //цвет описаний
+    <color name="caption">#FF939396</color>
+    //Цвет иконок
+    <color name="icons">#FFB8C1CC</color>
+    //Цвет фона
+    <color name="white">#FFF7F7F7</color>
+    //цвет фона поля ввода
+    <color name="inputBg">#F3F3F7</color>
+    //цвет ошибки
+    <color name="error"> #FFFF4646</color>
+    <color name="errorAlfa">#1AFF4646</color>
+    //цвет успеха
+    <color name="success">#FF00B412</color>
+    //границы поля ввода
+    <color name="inputstroke">#FFE6E6E6</color>
+    //цвет плейсхолдера
+    <color name="placeholder">#FF98989A</color>
+    //границы карточки
+    <color name="cardStroke">#FFF2F2F2</color>
+    <color name="background">#FFFFFFFF</color>
+</resources>
