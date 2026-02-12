@@ -18,7 +18,7 @@ android:layout_margin="10dp"
         android:gravity="top"
         android:text="Создать проект"
         android:textColor="@color/black"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textStyle="bold" />
     <!--Тип-->
     <TextView
@@ -69,7 +69,7 @@ android:layout_margin="10dp"
         android:textColor="@color/description" />
     <!--Поле ввода даты начала-->
     <EditText
-        android:id="@+id/sadateedit"
+        android:id="@+id/stdateedit"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/shape_corners"
@@ -96,7 +96,23 @@ android:layout_margin="10dp"
         android:hint="--.--.----"
         android:inputType="date"
         tools:ignore="SpeakableTextPresentCheck" />
-
+<!--Кнопка добавления фото-->
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="220dp"
+        android:layout_height="192dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_corners"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/plus_project" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/button_white"
+        android:paddingBottom="20dp"/>
     <!--Кнопка сохранения проекта-->
     <Button
         android:id="@+id/button"
@@ -108,6 +124,8 @@ android:layout_margin="10dp"
         android:text="Подтвердить"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/white" />
+
+
 
 
 </LinearLayout>

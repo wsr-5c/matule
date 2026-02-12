@@ -64,7 +64,7 @@
         android:textColor="@color/description" />
     <!--Поле ввода пароля-->
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/Password"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/shape_corners"
